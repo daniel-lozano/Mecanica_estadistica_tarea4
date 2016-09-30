@@ -6,7 +6,7 @@ import random as r
 N=20 #lado de la red
 NxN=N**2
 JKBT=np.arcsinh(1)/2.0
-time=100000
+time=40000
 T=JKBT*np.linspace(0.8  ,1.6,15)#se define un arreglo de 10 posibles temperaturas para trabajar en la red
 T_no_units=1/T
 print("Lado de la red N="+str(N)+"\n")
